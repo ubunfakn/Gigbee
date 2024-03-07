@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb6881a9.css",
+    "main.js": "/static/js/main.f781113a.js",
+    "static/js/453.92fb78ad.chunk.js": "/static/js/453.92fb78ad.chunk.js",
+    "static/media/AboutPageImage.jpeg": "/static/media/AboutPageImage.2547d99e58bde3b4343c.jpeg",
+    "static/media/HomePageBackground-removebg-preview1.png": "/static/media/HomePageBackground-removebg-preview1.1392951c88022be9b548.png",
+    "static/media/OfferingsBackgroundImage.jpeg": "/static/media/OfferingsBackgroundImage.93a586d80d5ec180d598.jpeg",
+    "static/media/GigbeeText.png": "/static/media/GigbeeText.a5d49516a26ef4567fe1.png",
+    "static/media/business.png": "/static/media/business.0541e0cb780c4b2a01b7.png",
+    "static/media/2ndImage.png": "/static/media/2ndImage.fb78aeead1a79184cdca.png",
+    "static/media/1stImage.png": "/static/media/1stImage.127a758fb9ffb89f7e32.png",
+    "static/media/individual.png": "/static/media/individual.0c7ad124007e0025f70f.png",
+    "static/media/gig_bee-removebg-preview 1.png": "/static/media/gig_bee-removebg-preview 1.f9a7d737fbf88c9e945a.png",
+    "index.html": "/index.html",
+    "main.fb6881a9.css.map": "/static/css/main.fb6881a9.css.map",
+    "main.f781113a.js.map": "/static/js/main.f781113a.js.map",
+    "453.92fb78ad.chunk.js.map": "/static/js/453.92fb78ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb6881a9.css",
+    "static/js/main.f781113a.js"
+  ]
+}
