@@ -18,7 +18,7 @@ const App = () => {
     <Router>
         <Navigationbar navigateToSection={navigateToSection} />
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/Gigbee" element={<MainPage />} />
         </Routes>
     </Router>
   );
