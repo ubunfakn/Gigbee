@@ -5,8 +5,10 @@ import GigBeeText from '../assets/GigbeeText.png';
 import '../CSS/MainPage.css';
 import IndividualImage from '../assets/individual.png'
 import BusinessImage from '../assets/business.png';
+import { useNavigate } from 'react-router-dom';
 
 export default function MainPage() {
+  const navigation = useNavigate();
   return (
     <>
       <div id="home">
@@ -51,7 +53,7 @@ export default function MainPage() {
           <h1 id='welcomeText' style={{ fontSize: "90px", color: "white", fontWeight: "700", marginTop: "105px" }}>I am</h1>
         </div>
         <div id="entitiesContentForOfferings" style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}>
-          <div className="individual_box" style={{ cursor:"pointer", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+          <div className="individual_box" onClick={()=>navigation("/individual")} style={{ cursor:"pointer", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
             <div>
               <img src={IndividualImage} style={{ width: "250px" }} alt="" />
             </div>
