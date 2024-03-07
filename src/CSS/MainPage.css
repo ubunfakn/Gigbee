@@ -1,0 +1,224 @@
+
+#home{
+    background-image: url('../assets/HomePageBackground-removebg-preview1.png');
+    height: auto!important;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: repeat!important;
+}
+
+.overlay {
+    background-color: rgba(2, 195, 126, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#contentContainer {
+    position: relative;
+    z-index: 2;
+}
+
+#textContentForHome,
+#GigBeeTextForHome,
+#subtitleForHome {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    color: black;
+    /* You can adjust the text color as needed */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#GigBeeTextForHome {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    color: white;
+    /* You can adjust the text color as needed */
+    animation: slideIn 2s ease-out;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#subtitleForHome {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    color: white;
+    /* You can adjust the text color as needed */
+}
+
+#subtitleForHome {
+    animation: slideUp 2s ease-out;
+}
+
+
+
+
+#about {
+    background-image: url('../assets/AboutPageImage.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: auto;
+}
+
+.overlay1 {
+    background-color: rgba(2, 195, 126, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    z-index: 1; /* Set a lower z-index for the overlay */
+}
+
+.overlay2 {
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* Set a higher z-index for this overlay */
+}
+
+#textContentForAbout {
+    position: relative; /* Ensure the text content has a position */
+    z-index: 3; /* Set a higher z-index for the text content */
+    color: white;
+    width: 76%;
+    margin-left: 15%;
+}
+
+/* Additional styles to make text readable */
+#textContentForAbout h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+#aboutUsText,
+#visionText,
+#chooseText {
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: justify;
+}
+
+#aboutUsText,
+#visionText,
+#chooseText {
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: justify;
+    opacity: 3; /* Start with 0 opacity */
+    animation: zoomIn 3s ease-in-out; /* Apply the zoomIn animation */
+    transform-origin: bottom; /* Set the transform origin to the bottom */
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5); /* Start with a scaled-down size */
+    }
+    to {
+        opacity: 3;
+        transform: scale(1); /* Zoom in to the actual size */
+    }
+}
+
+
+#textContentForVision{
+    position: relative; /* Ensure the text content has a position */
+    z-index: 3; /* Set a higher z-index for the text content */
+    color: white;
+    width: 76%;
+    margin-left: 15%;
+}
+
+#textContentForVision h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+#textContentForChoose{
+    position: relative; /* Ensure the text content has a position */
+    z-index: 3; /* Set a higher z-index for the text content */
+    color: white;
+    width: 76%;
+    margin-left: 15%;
+}
+
+#textContentForChoose h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+
+#offerings {
+    background-image: url('../assets/OfferingsBackgroundImage.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    margin-top: -16px;
+}
+
+.overlay3 {
+    background-color: #20CD8D;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+#textContentForOfferings,#entitiesContentForOfferings{
+    position: relative; /* Ensure the text content has a position */
+    z-index: 3; /* Set a higher z-index for the text content */
+    color: white;
+    width: 76%;
+    margin-left: 15%;
+}
+
+.individual_box, .business_box{
+    background-color: #21A475;
+    width: 450px;
+    height: 550px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
