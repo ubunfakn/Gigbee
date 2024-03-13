@@ -1,26 +1,40 @@
 {
   "files": {
-    "main.css": "/Gigbee/static/css/main.11afd3b3.css",
-    "main.js": "/Gigbee/static/js/main.5bd6dc11.js",
+    "main.css": "/Gigbee/static/css/main.a99dc5a7.css",
+    "main.js": "/Gigbee/static/js/main.3b0c2911.js",
     "static/js/453.92fb78ad.chunk.js": "/Gigbee/static/js/453.92fb78ad.chunk.js",
+    "static/media/FormBackgroundImage.jpeg": "/Gigbee/static/media/FormBackgroundImage.3bc93d202434895ec58a.jpeg",
     "static/media/GenTypesBackgroundImage.jpeg": "/Gigbee/static/media/GenTypesBackgroundImage.95c9df12fc01df002c9e.jpeg",
+    "static/media/BusinessContentBackgroundImage.jpeg": "/Gigbee/static/media/BusinessContentBackgroundImage.d4b98ebb6b710d2395ec.jpeg",
     "static/media/AboutPageImage.jpeg": "/Gigbee/static/media/AboutPageImage.2547d99e58bde3b4343c.jpeg",
     "static/media/HomePageBackground-removebg-preview1.png": "/Gigbee/static/media/HomePageBackground-removebg-preview1.1392951c88022be9b548.png",
     "static/media/IndividualBackground.jpeg": "/Gigbee/static/media/IndividualBackground.e42ac43941dcd2457419.jpeg",
     "static/media/OfferingsBackgroundImage.jpeg": "/Gigbee/static/media/OfferingsBackgroundImage.93a586d80d5ec180d598.jpeg",
+    "static/media/BusinessOfferings.jpeg": "/Gigbee/static/media/BusinessOfferings.8d9791487bb779db4b7b.jpeg",
     "static/media/GigbeeText.png": "/Gigbee/static/media/GigbeeText.a5d49516a26ef4567fe1.png",
+    "static/media/7.png": "/Gigbee/static/media/7.4485e78543c2ca7de623.png",
+    "static/media/3.png": "/Gigbee/static/media/3.e23c98dc2f41bb4a208d.png",
+    "static/media/12.png": "/Gigbee/static/media/12.2cbdd150d7a19991c87d.png",
+    "static/media/2.png": "/Gigbee/static/media/2.5c4fd82ec5962f0b9bfb.png",
+    "static/media/6.png": "/Gigbee/static/media/6.2e5d4488396258297fd7.png",
+    "static/media/10.png": "/Gigbee/static/media/10.9ce5d8ca90ee5a2a9fc6.png",
+    "static/media/8.png": "/Gigbee/static/media/8.822dcd9a3fa24cdffb7e.png",
+    "static/media/1.png": "/Gigbee/static/media/1.bed0afd264987cd69d90.png",
+    "static/media/9.png": "/Gigbee/static/media/9.1efc64d438c861f339b5.png",
+    "static/media/11.png": "/Gigbee/static/media/11.777a38f189f41a0f91c9.png",
     "static/media/business.png": "/Gigbee/static/media/business.0541e0cb780c4b2a01b7.png",
+    "static/media/5.png": "/Gigbee/static/media/5.a1d59780c0f2a10f0ff5.png",
     "static/media/2ndImage.png": "/Gigbee/static/media/2ndImage.fb78aeead1a79184cdca.png",
-    "static/media/1stImage.png": "/Gigbee/static/media/1stImage.127a758fb9ffb89f7e32.png",
+    "static/media/4.png": "/Gigbee/static/media/4.2f4a231be9d41aa214c8.png",
     "static/media/individual.png": "/Gigbee/static/media/individual.0c7ad124007e0025f70f.png",
     "static/media/gig_bee-removebg-preview 1.png": "/Gigbee/static/media/gig_bee-removebg-preview 1.f9a7d737fbf88c9e945a.png",
     "index.html": "/Gigbee/index.html",
-    "main.11afd3b3.css.map": "/Gigbee/static/css/main.11afd3b3.css.map",
-    "main.5bd6dc11.js.map": "/Gigbee/static/js/main.5bd6dc11.js.map",
+    "main.a99dc5a7.css.map": "/Gigbee/static/css/main.a99dc5a7.css.map",
+    "main.3b0c2911.js.map": "/Gigbee/static/js/main.3b0c2911.js.map",
     "453.92fb78ad.chunk.js.map": "/Gigbee/static/js/453.92fb78ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11afd3b3.css",
-    "static/js/main.5bd6dc11.js"
+    "static/css/main.a99dc5a7.css",
+    "static/js/main.3b0c2911.js"
   ]
 }
