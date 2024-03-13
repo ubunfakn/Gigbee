@@ -1,5 +1,4 @@
 import React from 'react';
-import firstImage from '../assets/1stImage.png';
 import secondImage from '../assets/2ndImage.png';
 import GigBeeText from '../assets/GigbeeText.png';
 import '../CSS/MainPage.css';
@@ -14,7 +13,7 @@ export default function MainPage() {
       <div id="home">
         <div className="overlay"></div>
         <div id="contentContainer">
-          <img src={firstImage} style={{ marginLeft: "80vw", marginTop: "90px", width: "200px", zIndex: "3", position: "absolute" }} alt="" />
+          {/* <img src={firstImage} style={{ marginLeft: "80vw", marginTop: "90px", width: "200px", zIndex: "3", position: "absolute" }} alt="" /> */}
           <div id="textContentForHome" style={{ display: "flex", justifyContent: "center" }}>
             <h1 id='welcomeText' style={{ fontSize: "90px", color: "black", fontWeight: "700", marginTop: "265px" }}>Welcome to</h1>
           </div>
@@ -31,15 +30,15 @@ export default function MainPage() {
         <div className="overlay1"></div>
         <div className="overlay2"></div>
         <div id="textContentForAbout" style={{ paddingTop: "5%" }}>
-          <h1 id='aboutHeading'>About Us</h1>
-          <p id='aboutUsText'>At TheGigBee, we're passionate about fostering a community where individuals and companies can seamlessly connect, collaborate, and thrive. Our mission is to empower freelancers, social media influencers, marketing enthusiasts, and businesses of all sizes by providing a platform that bridges the gap between talent and opportunity.</p>
+          <h1 style={{fontSize:"65px"}} id='aboutHeading'>About Us</h1>
+          <p id='aboutUsText'>At TheGigBee, our fervor lies in cultivating a vibrant community where individuals and enterprises effortlessly forge connections, collaborate seamlessly, and flourish collectively. Our overarching mission is to empower a diverse spectrum of talent, including freelancers, social media influencers, marketing enthusiasts, and businesses of all sizes. We achieve this by offering a dynamic platform that acts as a conduit, bridging the crucial gap between unparalleled talent and limitless opportunities, fostering a landscape where creativity, innovation, and success converge harmoniously.</p>
         </div>
         <div id="textContentForVision" style={{ marginTop: "5%" }}>
-          <h1 id='visionHeading'>Our Vision</h1>
+          <h1 style={{fontSize:"65px"}} id='visionHeading'>Our Vision</h1>
           <p id='visionText'>We envision a world where work is not confined by traditional boundaries, where talent knows no limitations, and where every project, big or small, finds the perfect match. TheGigBee is more than just a gig platform; it's a hub of creativity, innovation, and limitless possibilities.</p>
         </div>
         <div id="textContentForChoose" style={{ marginTop: "5%" }}>
-          <h1 id='chooseHeading'>Why Choose The Gig Bee?</h1>
+          <h1 style={{fontSize:"65px"}} id='chooseHeading'>Why Choose The Gig Bee?</h1>
           <ul id='chooseText' style={{ paddingBottom: "5%" }}>
             <li>Diverse Opportunities: Explore a wide range of projects across various domains.</li>
             <li>Flexibility: Tailor your work to your schedule and preferences.</li>
@@ -64,7 +63,7 @@ export default function MainPage() {
           <div id="orOffering" style={{ marginLeft: "5%", marginTop: "6%" }}>
             <h1 id='welcomeText' style={{ fontSize: "90px", color: "white", fontWeight: "700", marginTop: "195px" }}>Or</h1>
           </div>
-          <div className="business_box" style={{ cursor:"pointer",  marginLeft: "5%", marginBottom: "3%", display: "flex", flexDirection:"column", justifyContent: "center", alignItems: "center" }}>
+          <div className="business_box" onClick={()=>navigation("/business")} style={{ cursor:"pointer",  marginLeft: "5%", marginBottom: "3%", display: "flex", flexDirection:"column", justifyContent: "center", alignItems: "center" }}>
             <div>
               <img src={BusinessImage} style={{ width: "250px" }} alt="" />
             </div>

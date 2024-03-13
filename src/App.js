@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './Pages/MainPage';
 import Navigationbar from './components/Navigationbar';
 import Individual from './Pages/Individual';
+import Business from './Pages/Business';
+import ContactForm from './Pages/ContactForm';
 
 const App = () => {
   const navigateToSection = (section) => {
@@ -21,6 +23,8 @@ const App = () => {
         <Routes>
           <Route path="/Gigbee" element={<MainPage />} />
           <Route path="/individual" element={<Individual />} />
+          <Route path="/business" element={<Business />} />
+          <Route path="/form" element={<ContactForm />} />
         </Routes>
     </Router>
   );

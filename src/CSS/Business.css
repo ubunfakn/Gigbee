@@ -1,0 +1,137 @@
+#businessContentTop{
+    background-image: url('../assets/IndividualBackground.jpeg');
+    height: auto!important;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: repeat!important;
+}
+
+.overlayB{
+    background-color: #CCF4E5;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#headingForBusiness,#businessContentPart, .offeringBoxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    color: black;
+}
+
+#businessOfferings{
+    background-image: url('../assets/BusinessOfferings.jpeg');
+    height: auto!important;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: repeat!important;
+}
+
+.overlayBG{
+    background-color: #06462F;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#businessContent{
+    background-image: url('../assets/BusinessContentBackgroundImage.jpeg');
+    height: auto!important;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: repeat!important;
+}
+
+.overlayBO{
+    background-color: #20CD8D;
+    opacity: 0.95;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#businessContentPart{
+    flex-direction: column;
+}
+
+.businessContentTextBox {
+    position: relative;
+    width: 50%;
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .businessContentTextBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #0097b2, #7ed957);
+    opacity: 0.4;
+    z-index: -1;
+    border-radius: 100px;
+  }
+
+  .offeringBox{
+    background-color: #046B46;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    border-radius: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .largeBox{
+    background-color: #046B46;
+    width: 900px;
+    height: 250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    border-radius: 35px;
+  }
+
+  .offeringBox img{
+    width: 160px;
+  }
+
+  .offeringBoxText{
+    font-size: 25px;
+  }
+  
