@@ -4,7 +4,6 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
     background-size: cover;
     background-repeat: repeat!important;
 }
@@ -36,7 +35,6 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
     background-size: cover;
     background-repeat: repeat!important;
 }
@@ -58,4 +56,87 @@
     width: 450px;
     margin-top: 240px;
     border-radius: 35px;
+    margin-bottom: 100px;
+}
+
+@media(max-width:1400px){
+    #individualContentOne{
+        margin-top: 190px!important;
+        font-size: 70px!important;
+    }
+
+    #individualContentTwo{
+        margin-top: 60px!important;
+        font-size: 40px!important;
+    }
+
+    #individualContentThree{
+        margin-top: 60px!important;
+        font-size: 30px!important;
+        margin-bottom: 50px;
+    }
+
+    .typeBoxes{
+        height: 550px!important;
+        width: 390px!important;
+        margin-top: 100px!important;
+        border-radius: 25px!important;
+        margin-left: 15px!important;
+        margin-bottom: 80px!important;
+    }
+
+    #genHeading h3{
+        font-size: 18px;
+    }
+
+    #genZMainContent h4{
+        font-size: 16px!important;
+    }
+
+    #genZMainContent li{
+        font-size: 16px!important;
+    }
+}
+
+@media(max-width:500px){
+    #individualContentOne{
+        margin-top: 120px!important;
+        font-size: 35px!important;
+    }
+
+    #individualContentTwo{
+        margin-top: 30px!important;
+        font-size: 20px!important;
+    }
+
+    #individualContentThree{
+        margin-top: 30px!important;
+        font-size: 15px!important;
+        margin-bottom: 50px;
+    }
+
+    #genTypesContent{
+        flex-direction: column!important;
+    }
+
+    .typeBoxes{
+        height: 550px!important;
+        width: 87%!important;
+        margin-top: 20px!important;
+        border-radius: 35px!important;
+        margin-left: 2%!important;
+        margin-bottom: 40px!important;
+    }
+
+    #genHeading h3{
+        font-size: 18px;
+    }
+
+    #genZMainContent h4{
+        font-size: 16px!important;
+    }
+
+    #genZMainContent li{
+        font-size: 16px!important;
+    }
 }

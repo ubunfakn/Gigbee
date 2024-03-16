@@ -4,7 +4,6 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
     background-size: cover;
     background-repeat: repeat!important;
 }
@@ -36,7 +35,6 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
     background-size: cover;
     background-repeat: repeat!important;
 }
@@ -58,7 +56,6 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
     background-size: cover;
     background-repeat: repeat!important;
 }
@@ -133,5 +130,57 @@
 
   .offeringBoxText{
     font-size: 25px;
+  }
+
+  @media(max-width:1400px){
+    .offeringBox{
+      width: 150px!important;
+      height: 150px!important;
+      margin-left: 35px!important;
+      border-radius: 25px!important;
+    }
+
+    .offeringBox img{
+      width: 100px!important;
+    }
+
+    .offeringBoxText{
+      font-size: 18px!important;
+    }
+
+    .largeBox{
+      width: 520px!important;
+      height: 150px!important;
+      margin-left: 35px!important;
+      border-radius: 25px!important;
+    }
+
+    #firstH1OfLargeBox{
+      font-size: 60px!important;
+    }
+
+    #secondH1OfLargeBox{
+      font-size: 16px!important;
+    }
+
+    #businessContentPart h1{
+      font-size: 45px!important;
+      padding-top: 100px!important;
+    }
+
+    .businessContentTextBox{
+      margin-top: 40px!important;
+    }
+
+    #businessContentPart h2{
+      font-size: 31px!important;
+      margin-top: -40px!important;
+    }
+
+    #businessContentPart li h2{
+      font-size: 23px!important;
+      margin-top: 20px!important;
+    }
+
   }
   

@@ -13,7 +13,6 @@ export default function MainPage() {
       <div id="home">
         <div className="overlay"></div>
         <div id="contentContainer">
-          {/* <img src={firstImage} style={{ marginLeft: "80vw", marginTop: "90px", width: "200px", zIndex: "3", position: "absolute" }} alt="" /> */}
           <div id="textContentForHome" style={{ display: "flex", justifyContent: "center" }}>
             <h1 id='welcomeText' style={{ fontSize: "90px", color: "black", fontWeight: "700", marginTop: "265px" }}>Welcome to</h1>
           </div>
@@ -23,7 +22,7 @@ export default function MainPage() {
           <div id="subtitleForHome" style={{ display: "flex", justifyContent: "center" }}>
             <h1 id='subTitle' style={{ fontFamily: "Nunito Sans, sans-serif", marginTop: "10px", color: "black", fontWeight: "700", fontSize: "50px" }}>"Your Gig, Your Click, Your Future"</h1>
           </div>
-          <img src={secondImage} style={{ marginLeft: "10vw", width: "400px", zIndex: "3" }} alt="" />
+          <img id='beeImage' src={secondImage} style={{ marginLeft: "10vw", width: "400px", zIndex: "3" }} alt="" />
         </div>
       </div>
       <div id="about">
@@ -49,7 +48,7 @@ export default function MainPage() {
       <div id="offerings">
         <div className="overlay3"></div>
         <div id="textContentForOfferings" style={{ display: "flex", justifyContent: "center" }}>
-          <h1 id='welcomeText' style={{ fontSize: "90px", color: "white", fontWeight: "700", marginTop: "105px" }}>I am</h1>
+          <h1 id='iAmText' style={{ fontSize: "90px", color: "white", fontWeight: "700", marginTop: "105px" }}>I am</h1>
         </div>
         <div id="entitiesContentForOfferings" style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}>
           <div className="individual_box" onClick={()=>navigation("/individual")} style={{ cursor:"pointer", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
@@ -61,7 +60,7 @@ export default function MainPage() {
             </div>
           </div>
           <div id="orOffering" style={{ marginLeft: "5%", marginTop: "6%" }}>
-            <h1 id='welcomeText' style={{ fontSize: "90px", color: "white", fontWeight: "700", marginTop: "195px" }}>Or</h1>
+            <h1 id='welcomeText' className='orText' style={{ fontSize: "90px", color: "white", fontWeight: "700", marginTop: "195px" }}>Or</h1>
           </div>
           <div className="business_box" onClick={()=>navigation("/business")} style={{ cursor:"pointer",  marginLeft: "5%", marginBottom: "3%", display: "flex", flexDirection:"column", justifyContent: "center", alignItems: "center" }}>
             <div>

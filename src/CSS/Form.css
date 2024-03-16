@@ -4,7 +4,6 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
     background-size: cover;
     background-repeat: repeat !important;
     display: flex;
@@ -31,4 +30,43 @@
 
 .main_form {
     width: 100% !important;
+}
+
+@media(max-width:1400px){
+    #leftSideContent h1{
+        font-size: 35px!important;
+    }
+
+    .formGenType{
+        font-size: 30px!important;
+    }
+}
+
+@media(max-width:500px){
+    #formPage{
+        flex-direction: column!important;
+    }
+
+    #text_section, #form_section{
+        width: 95%!important;
+        margin-left: 2.5%!important;
+        margin-top: -70px!important;
+    }
+
+    #leftSideContent h1{
+        font-size: 25px!important;
+    }
+
+    .formGenType{
+        font-size: 20px!important;
+    }
+
+    #leftSideContent li{
+        font-size: 19px!important;
+        margin-left: -40px!important;
+    }
+
+    #text_section{
+        margin-bottom: -80px!important;
+    }
 }

@@ -14,7 +14,7 @@ export default function ContactForm() {
                     <h1 style={{ fontSize: "60px", fontWeight: "600" }}>What We Offer:</h1>
                     <h1 style={{ fontSize: "55px", fontWeight: "600", paddingTop: "20px" }}>Igniting Potential, Empowering Journeys!</h1>
                     {type === "GenZ" ? <>
-                        <h1 style={{ fontSize: "40px", fontWeight: "600", paddingTop: "60px" }}>Gen Z &nbsp;:</h1>
+                        <h1 className='formGenType' style={{ fontSize: "40px", fontWeight: "600", paddingTop: "60px" }}>Gen Z &nbsp;:</h1>
                         <ul style={{ paddingLeft: "70px", width: "95%" }}>
                             <li style={{ fontSize: "30px" }}>
                                 <span style={{ fontWeight: "bold" }}>Entrepreneurial Mastery:</span> Dive into structured programs shaping your entrepreneurial spirit.
@@ -22,7 +22,7 @@ export default function ContactForm() {
                             <li style={{ fontSize: "30px", paddingTop: "30px" }}>
                                 <span style={{ fontWeight: "bold" }}>Social Media Wizardry:</span> Transform social media from a freebie into a career-enhancing powerhouse.
                             </li>
-                        </ul></> : <>{type === "Millennials" ? <h1 style={{ fontSize: "40px", fontWeight: "600", paddingTop: "60px" }}>Millennials&nbsp;:</h1> : <h1 style={{ fontSize: "40px", fontWeight: "600", paddingTop: "60px" }}>Gen X &nbsp;:</h1>}
+                        </ul></> : <>{type === "Millennials" ? <h1 className='formGenType' style={{ fontSize: "40px", fontWeight: "600", paddingTop: "60px" }}>Millennials&nbsp;:</h1> : <h1 className='formGenType' style={{ fontSize: "40px", fontWeight: "600", paddingTop: "60px" }}>Gen X &nbsp;:</h1>}
                         <ul style={{ paddingLeft: "70px", width: "95%" }}>
                             <li style={{ fontSize: "30px" }}>
                                 <span style={{ fontWeight: "bold" }}>Strategic Growth:</span> Access projects aligned with your unique skills and aspirations.

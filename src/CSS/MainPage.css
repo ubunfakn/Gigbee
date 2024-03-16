@@ -5,7 +5,7 @@
     background-position: center;
     background-size: 100%;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-size: cover;
     background-repeat: repeat!important;
 }
@@ -222,3 +222,105 @@
     border-bottom-right-radius: 50%;
 }
 
+@media(max-width:1400px){
+    #welcomeText{
+        margin-top: 155px!important;
+        font-size: 70px!important;
+    }
+
+    #GigBeeTextForHome img{
+        width: 900px!important;
+    }
+
+    #beeImage{
+        width: 300px!important;
+    }
+
+    #aboutHeading, #visionHeading, #chooseHeading{
+        font-size: 55px!important;
+    }
+
+    #aboutUsText, #visionText, #chooseText{
+        font-size: 30px!important;
+    }
+
+    #iAmText{
+        margin-top: 45px!important;
+    }
+
+    .individual_box, .business_box{
+        width: 300px!important;
+        height: 400px!important;
+    }
+
+    .individual_box img, .business_box img{
+        width: 160px!important;
+    }
+
+    .individual_box h1, .business_box h1{
+        font-size: 39px!important;
+    }
+}
+
+
+@media(max-width:500px){
+    #welcomeText{
+        margin-top: 155px!important;
+        font-size: 35px!important;
+    }
+
+    #GigBeeTextForHome img{
+        width: 350px!important;
+        padding-top: 20px!important;
+    }
+
+    #subTitle{
+        font-size: 20px!important;
+    }
+
+    #beeImage{
+        width: 150px!important;
+        margin-left: -20px!important;
+    }
+
+    #aboutHeading, #visionHeading, #chooseHeading{
+        font-size: 21px!important;
+        text-align: center!important;
+        margin-top: 40px!important;
+    }
+
+    #aboutUsText, #visionText, #chooseText{
+        font-size: 15px!important;
+        width: 119%!important;
+        padding: 0px!important;
+        margin: 0px!important;
+        margin-top: 30px!important;
+        margin-left: -36px!important;
+    }
+
+    #chooseText{
+        padding-bottom: 40px!important;
+    }
+
+    #iAmText{
+        margin-top: 35px!important;
+        font-size: 40px!important;
+    }
+
+    .individual_box, .business_box{
+        width: 150px!important;
+        height: 200px!important;
+    }
+
+    .individual_box img, .business_box img{
+        width: 80px!important;
+    }
+
+    .individual_box h1, .business_box h1{
+        font-size: 16px!important;
+    }
+
+    .orText{
+        margin-top: -300px!important;
+    }
+}

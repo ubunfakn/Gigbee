@@ -11,11 +11,11 @@ export default function Individual() {
                 <div className="overlayI"></div>
                 <div id="headingForIndividual">
                     <div>
-                        <h1 style={{ fontSize: "80px", fontWeight: "900", marginTop: "310px", fontFamily: "fantasy" }}>Explore TheGigBee as an Individual</h1>
-                        <h1 style={{ fontSize: "55px", marginTop: "90px", fontWeight: "normal" }}>Tailored Opportunities for Every Generation</h1>
+                        <h1 id='individualContentOne' style={{ fontSize: "80px", fontWeight: "900", marginTop: "240px", fontFamily: "fantasy" }}>Explore TheGigBee as an Individual</h1>
+                        <h1 id='individualContentTwo' style={{ fontSize: "55px", marginTop: "70px", fontWeight: "normal" }}>Tailored Opportunities for Every Generation</h1>
                         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                            <div style={{ width: "75%" }}>
-                                <h1 style={{ fontSize: "45px", marginTop: "90px", fontWeight: "normal", textAlign: "center" }}>At TheGigBee, we understand that individuals of different generations have unique talents and aspirations. Whether you're a tech-savvy Gen Z, an ambitious Millennial, or a seasoned Gen X professional, we have crafted opportunities that align with your skills and passions.</h1>
+                            <div style={{ width: "85%" }}>
+                                <h1 id='individualContentThree' style={{ fontSize: "45px", marginTop: "70px", fontWeight: "normal", textAlign: "center", marginBottom:"100px" }}>At TheGigBee, we understand that individuals of different generations have unique talents and aspirations. Whether you're a tech-savvy Gen Z, an ambitious Millennial, or a seasoned Gen X professional, we have crafted opportunities that align with your skills and passions.</h1>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ export default function Individual() {
                         <div id='genZMainContent' style={{ display: "flex", marginLeft: "20px", marginTop: "20px", flexDirection: "column", justifyContent: "left", alignItems: "flex-start", width: "90%" }}>
                             <h4 style={{ fontWeight: "600" }}>Ambitious Minds, Seize Your Moment!</h4>
                             <h4 style={{ fontWeight: "400", marginRight: "20px", textAlign: "justify", marginTop: "10px" }}>Fuel your ambition with TheGigBee. We offer tailored gigs for your diverse skill set and entrepreneurial spirit. Find opportunities aligned with your goals.</h4>
-                            <h4 style={{ fontWeight: "600", marginTop: "25px" }}>Why Choose TheGigBee?</h4>
+                            <h4 style={{ fontWeight: "600", marginTop: "60px" }}>Why Choose TheGigBee?</h4>
                             <ul>
                                 <li style={{ textAlign: "justify", fontSize: "18px" }}>Entrepreneurial Gigs: Explore projects for creative expression.</li>
                                 <li style={{ textAlign: "justify", fontSize: "18px" }}>Career Growth: Access gigs for professional development.</li>
