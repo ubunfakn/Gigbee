@@ -56,6 +56,17 @@
     animation: slideIn 2s ease-out;
 }
 
+#GigBeeTextForHome h1{
+    font-family: "Diplomata", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 110px;
+    padding-top: 30px;
+    margin-bottom: 28px;
+    margin-top: 12px;
+}
+
 @keyframes slideUp {
     0% {
         transform: translateY(100%);
@@ -228,8 +239,8 @@
         font-size: 70px!important;
     }
 
-    #GigBeeTextForHome img{
-        width: 900px!important;
+    #GigBeeTextForHome h1{
+        font-size: 90px;
     }
 
     #beeImage{
@@ -262,6 +273,12 @@
     }
 }
 
+@media(max-width:1250px){
+    #GigBeeTextForHome h1{
+        font-size: 70px!important;
+    }
+}
+
 
 @media(max-width:500px){
     #welcomeText{
@@ -269,13 +286,22 @@
         font-size: 35px!important;
     }
 
-    #GigBeeTextForHome img{
-        width: 350px!important;
-        padding-top: 20px!important;
+    #subTitle{
+        font-size: 20px!important;
+    }
+
+    #welcomeText{
+        font-size: 20px!important;
+    }
+
+    #GigBeeTextForHome h1{
+        font-size: 30px!important;
+        margin-top: -20px!important;
     }
 
     #subTitle{
-        font-size: 20px!important;
+        margin-top: -10px!important;
+        font-size: 18px!important;
     }
 
     #beeImage{

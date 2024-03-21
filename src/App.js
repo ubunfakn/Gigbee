@@ -5,6 +5,7 @@ import Navigationbar from './components/Navigationbar';
 import Individual from './Pages/Individual';
 import Business from './Pages/Business';
 import ContactForm from './Pages/ContactForm';
+import Contact from './Pages/Contact';
 
 const App = () => {
   const navigateToSection = (section) => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/individual" element={<Individual />} />
           <Route path="/business" element={<Business />} />
           <Route path="/form" element={<ContactForm />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
     </Router>
   );

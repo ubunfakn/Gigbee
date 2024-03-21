@@ -1,0 +1,55 @@
+#brandName {
+    font-family: "Diplomata", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #018a5a;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+@media(max-width:1400px){
+    #brandName {
+        font-size: 25px;
+    }
+
+    .navLink{
+        font-size: 18px!important;
+    }
+}
+
+@media (max-width:1250px){
+    .navLink{
+        padding-left: 20px;
+    }
+
+    .button_button{
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #businessButton{
+        margin-left: 10px!important;
+    }
+}
+
+
+@media(max-width:500px){
+    #brandName {
+        font-size: 15px;
+        margin-top: -8px!important;
+    }
+
+    .navLink{
+        font-size: 18px!important;
+    }
+
+    #brandLogo{
+        width: 60px!important;
+    }
+
+    #nav-toggle-button{
+        font-size: 15px!important;
+        margin-top: 1px!important;
+    }
+}
