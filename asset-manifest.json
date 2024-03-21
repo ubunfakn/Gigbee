@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gigbee/static/css/main.4f869804.css",
-    "main.js": "/Gigbee/static/js/main.0dde9a81.js",
+    "main.css": "/Gigbee/static/css/main.082c7386.css",
+    "main.js": "/Gigbee/static/js/main.fbdc658f.js",
     "static/js/453.92fb78ad.chunk.js": "/Gigbee/static/js/453.92fb78ad.chunk.js",
     "static/media/FormBackgroundImage.jpeg": "/Gigbee/static/media/FormBackgroundImage.3bc93d202434895ec58a.jpeg",
     "static/media/GenTypesBackgroundImage.jpeg": "/Gigbee/static/media/GenTypesBackgroundImage.95c9df12fc01df002c9e.jpeg",
@@ -33,12 +33,12 @@
     "static/media/GigBeeLogo.png": "/Gigbee/static/media/GigBeeLogo.cfddcc1d37db482840ba.png",
     "static/media/individual.png": "/Gigbee/static/media/individual.0c7ad124007e0025f70f.png",
     "index.html": "/Gigbee/index.html",
-    "main.4f869804.css.map": "/Gigbee/static/css/main.4f869804.css.map",
-    "main.0dde9a81.js.map": "/Gigbee/static/js/main.0dde9a81.js.map",
+    "main.082c7386.css.map": "/Gigbee/static/css/main.082c7386.css.map",
+    "main.fbdc658f.js.map": "/Gigbee/static/js/main.fbdc658f.js.map",
     "453.92fb78ad.chunk.js.map": "/Gigbee/static/js/453.92fb78ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f869804.css",
-    "static/js/main.0dde9a81.js"
+    "static/css/main.082c7386.css",
+    "static/js/main.fbdc658f.js"
   ]
 }
