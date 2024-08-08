@@ -6,6 +6,7 @@ import Individual from './Pages/Individual';
 import Business from './Pages/Business';
 import ContactForm from './Pages/ContactForm';
 import Contact from './Pages/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   const navigateToSection = (section) => {
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/form" element={<ContactForm />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
     </Router>
   );
 };

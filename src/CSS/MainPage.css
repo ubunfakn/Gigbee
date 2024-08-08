@@ -349,4 +349,17 @@
     .orText{
         margin-top: -300px!important;
     }
+
+    .business_box{
+        padding-left: 5px;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        text-align: center!important;
+    }
+
+    .business_box img{
+        padding-left: 20px;
+        width: 110px!important;
+    }
 }

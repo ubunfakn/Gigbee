@@ -15,13 +15,13 @@ export default function Contact() {
         setCities(City.getCitiesOfState("IN", e.target.value));
     }
 
-    const handleCityChange = (e)=>{
+    const handleCityChange = (e) => {
         setSelectedCity(e.target.value);
     }
-  return (
-    <div id='formPage' style={{display:"flex", justifyContent:"center"}}>
-        <div className="overlayForm"></div>
-      <div id='form_section' style={{ width: "48%" }}>
+    return (
+        <div id='formPage' style={{ display: "flex", justifyContent: "center" }}>
+            <div className="overlayForm"></div>
+            <div id='form_section' style={{ width: "48%", marginBottom:"100px", marginTop:"80px" }}>
                 <div className="main_form">
                     <Form style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)', padding: '20px', borderRadius: '35px', marginBottom: "50px" }}>
                         <h1 style={{ fontSize: "45px", fontWeight: "600", color: "darkblue", paddingTop: "25px", paddingBottom: "25px", textAlign: "center" }}>Contact Us!</h1>
@@ -47,7 +47,7 @@ export default function Contact() {
 
                         <Form.Group controlId="formState">
                             <Form.Control style={{ height: "70px", borderRadius: "25px", fontSize: "20px", marginTop: "40px" }} as="select" onChange={handleStateChange}>
-                                <option value="">{selectedState?selectedState.name:"Select State"}</option>
+                                <option value="">{selectedState ? selectedState.name : "Select State"}</option>
                                 {states.map((state) => (
                                     <option key={state.isoCode} value={state.isoCode}>{state.name}</option>
                                 ))}
@@ -76,6 +76,6 @@ export default function Contact() {
                     </Form>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }

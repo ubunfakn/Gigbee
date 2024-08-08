@@ -265,7 +265,7 @@ export default function Business() {
                         </>
                     </div>
                 </div>
-                <div id='form_section' style={{ width: "48%" }}>
+                <div id='form_section' style={{ width: "48%", marginBottom:"100px" }}>
                     <div className="main_form">
                         <Form style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)', padding: '20px', borderRadius: '35px', marginBottom: "50px" }}>
                             <h1 style={{ fontSize: "45px", fontWeight: "600", color: "darkblue", paddingTop: "25px", paddingBottom: "25px", textAlign: "center" }}>Join Us Now!</h1>
